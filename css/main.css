@@ -28,6 +28,13 @@ p {
 	text-align: center;
 }
 
+.anchor{
+   display: block;
+   height: 81px;
+   margin-top: -81px;
+   visibility: hidden;
+}
+
 a {
 	color: #f85c37;
 }
@@ -85,7 +92,7 @@ hr {
 	background-size: cover;
 }
 
-#headerwrap h1 {
+.main-head {
 	margin-top: 100px;
 	color: white;
 	font-size: 70px;
@@ -93,29 +100,36 @@ hr {
 	letter-spacing: 3px;
 }
 
-#headerwrap h2 {
+@media (max-width: 420px) {
+
+	.main-head {
+		font-size: 50px;
+	}
+}
+
+.main-text {
 	color: white;
 	font-size: 40px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
-.w {
+.main-design {
 	padding-top: 35px;
 }
 
-.w h4 {
+.main-design__head {
 	font-size: 25px;
 }
 
-#dg {
+#devices {
 	background-color: #e0e0e0;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center;
 }
 
-#dg h4 {
+.main-works {
 	font-size: 40px;
 }
 
@@ -135,27 +149,27 @@ hr {
 	transform: rotate(-10deg);
 }
 
-.wb {
+.main-munter {
 	padding-top: 35px;
 	margin-bottom: 0;
 }
 
-.wb h4 {
+.main-munter__head {
 	font-size: 35px;
 }
 
-#lg {
+#main-partners {
 	background-color: #ebebeb;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center;
 }
 
-#lg h4 {
+.main-partners__head {
 	font-size: 45px;
 }
 
-#r {
+#main-pro {
 	background-color: #ff7878;
 	padding-top: 70px;
 	padding-bottom: 70px;
@@ -166,22 +180,22 @@ hr {
 	font-size: 45px;
 }
 
-#r p {
+.main-pro__head {
 	color: white;
 }
 
-#f {
+#main-soc {
 	background-color: #2d2d2d;
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
 
-#f i {
+.main-soc__icon {
 	color: #bdbdbd;
 	font-size: 30px;
 	padding: 20px;
 }
 
-#f i:hover {
+.main-soc__icon:hover {
 	color: #ff7878;
 }

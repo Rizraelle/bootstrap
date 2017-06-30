@@ -21,10 +21,10 @@
   			</div>
   			<div class="navbar-collapse collapse">
   				<ul class="nav navbar-nav navbar-right">
-  					<li class="active"><a href="#">Home</a></li>
-  					<li><a href="#">About</a></li>
-  					<li><a href="#">Service</a></li>
-  					<li><a href="#">Works</a></li>
+  					<li class="active"><a href="#home">Home</a></li>
+  					<li><a href="#about">About</a></li>
+  					<li><a href="#service">Service</a></li>
+  					<li><a href="#works">Works</a></li>
   					<li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
   				</ul>
   			</div>
@@ -32,39 +32,42 @@
   	</div>
   	<div id="headerwrap">
   		<div class="container">
+        <div class="anchor" id="home"></div>
   			<div class="row centered">
-  				<div class="col-lg-8 col-lg-offset-2">
-  					<h1>Bootstrap is awesome</h1>
-  					<h2>Bootstrap sites are awesome</h2>
+  				<div class="col-lg-8 col-xs-12 col-lg-offset-2">
+  					<h1 class="main-head">Bootstrap is awesome</h1>
+  					<h2 class="main-text">Bootstrap sites are awesome</h2>
   				</div>
   			</div>
   		</div>
   	</div>
-  	<div class="container w">
+  	<div class="container main-design">
   		<div class="row centered">
+        <div class="anchor" id="about"></div>
   			<br><br>
   			<div class="col-lg-4">
   				<i class="fa fa-heart"></i>
-  				<h4>Design</h4>
+  				<h4 class="main-design__head">Design</h4>
   				<p>Lorem ipsum dolor sit amet, consecterur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   			</div>
   			<div class="col-lg-4">
   				<i class="fa fa-laptop"></i>
-  				<h4>Computers</h4>
+  				<h4 class="main-design__head">Computers</h4>
   				<p>Lorem ipsum dolor sit amet, consecterur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   			</div>
   			<div class="col-lg-4">
   				<i class="fa fa-trophy"></i>
-  				<h4>Awards</h4>
+  				<h4 class="main-design__head">Awards</h4>
   				<p>Lorem ipsum dolor sit amet, consecterur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   			</div>
   		</div>
   		<br><br>
   	</div>
-  	<div id="dg">
+  	<div id="devices">
   		<div class="container">
+        <div class="anchor" id="service"></div>
   			<div class="row centered">
-  				<h4>Last works</h4>
+  				<h4 class="main-works">Last works</h4>
   				<br>
   				<div class="col-lg-4">
   					<div class="tilt">
@@ -84,11 +87,12 @@
   			</div>
   		</div>
   	</div>
-    <div class="container wb">
+    <div class="container main-munter">
+      <div class="anchor" id="works"></div>
       <div class="row centered">
         <br><br>
         <div class="col-lg-8 col-lg-offset-2">
-          <h4>We are doing work</h4>
+          <h4 class="main-munter__head">We are doing work</h4>
           <p>Lorem ipsum dolor sit amet, consecterur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
           <p><br><br></p>
           <div class="col-lg-2"></div>
@@ -98,10 +102,10 @@
         </div>
       </div>
     </div>
-    <div id="lg">
+    <div id="main-partners">
       <div class="container">
         <div class="row centered">
-          <h4>Partners</h4>
+          <h4 class="main-partners__head">Partners</h4>
           <div class="col-lg-2 col-lg-offset-1">
             <img src="img/c01.png">
           </div>
@@ -120,22 +124,22 @@
         </div>
       </div>
     </div>
-    <div id="r">
+    <div id="main-pro">
       <div class="container">
         <div class="row centered">
           <div class="col-lg-8 col-lg-offset-2">
-            <h4>We are professionals</h4>
+            <h4 class="main-pro__head">We are professionals</h4>
             <p>Lorem ipsum dolor sit amet, consecterur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
       </div>
     </div>
-    <div id="f">
+    <div id="main-soc">
       <div class="container">
         <div class="row centered">
-          <a href=""><i class="fa fa-twitter"></i></a>
-          <a href=""><i class="fa fa-facebook"></i></a>
-          <a href=""><i class="fa fa-vk"></i></a>
+          <a href=""><i class="fa fa-twitter main-soc__icon"></i></a>
+          <a href=""><i class="fa fa-facebook main-soc__icon"></i></a>
+          <a href=""><i class="fa fa-vk main-soc__icon"></i></a>
         </div>
       </div>
     </div>
@@ -143,5 +147,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
